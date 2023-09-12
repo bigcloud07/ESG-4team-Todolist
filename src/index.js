@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createGlobalStyle } from 'styled-components';
+import App from './App';
+import DateTimeComponent from './DateTimeComponent';
+
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <h1>My Today's</h1>
+    <h1>Report</h1>
+    <DateTimeComponent/>
+    <App/>
+
+    
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
