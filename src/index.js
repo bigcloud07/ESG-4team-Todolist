@@ -15,8 +15,8 @@ import DateTimeComponent from './DateTimeComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <h1>My Today's</h1>
-    <h1>Report</h1>
+    <h1>To do list</h1>
+    <h1>For today</h1>
     <DateTimeComponent/>
     <App/>
 
