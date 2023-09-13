@@ -22,7 +22,7 @@ function App() {
     }
   }, [isRendered]);
   const scrollTodo = () => {
-    const todoElement = document.querySelector('.todo'); // Todo 컨테이너의 클래스명을 사용합니다.
+    const todoElement = document.querySelector('.todo'); 
     if (todoElement) {
       todoElement.scrollIntoView({ behavior: 'smooth' });
     }
